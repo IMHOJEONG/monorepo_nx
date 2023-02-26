@@ -1,0 +1,59 @@
+
+added 870 packages, and audited 871 packages in 23s
+
+91 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+>  NX  Generating @nrwl/workspace:preset
+
+CREATE jest.preset.js
+UPDATE nx.json
+UPDATE package.json
+UPDATE .vscode/extensions.json
+CREATE src/assets/.gitkeep
+CREATE src/main.ts
+CREATE tsconfig.app.json
+CREATE tsconfig.json
+CREATE src/app/app.spec.ts
+CREATE src/app/app.ts
+CREATE project.json
+CREATE .eslintrc.json
+CREATE .eslintignore
+CREATE jest.config.ts
+CREATE tsconfig.spec.json
+CREATE e2e/project.json
+CREATE e2e/jest.config.ts
+CREATE e2e/src/server/server.spec.ts
+CREATE e2e/src/support/global-setup.ts
+CREATE e2e/src/support/global-teardown.ts
+CREATE e2e/src/support/test-setup.ts
+CREATE e2e/tsconfig.json
+CREATE e2e/tsconfig.spec.json
+CREATE e2e/.eslintrc.json
+CREATE Dockerfile
+
+ >  NX   Command failed: npm install
+
+   Pass --verbose to see the stacktrace.
+
+
+ >  NX   Workspace creation failed, see above.
+
+   Pass --verbose to see the stacktrace.
+
+
+npm WARN deprecated stable@0.1.8: Modern JS already guarantees Array#sort() is a stable sort, so this library is deprecated. See the compatibility table on MDN: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort#browser_compatibility
+npm WARN deprecated source-map-resolve@0.6.0: See https://github.com/lydell/source-map-resolve#deprecated
+npm ERR! code ECONNRESET
+npm ERR! errno ECONNRESET
+npm ERR! network Invalid response body while trying to fetch https://registry.npmjs.org/ts-jest: aborted
+npm ERR! network This is a problem related to network connectivity.
+npm ERR! network In most cases you are behind a proxy or have bad network settings.
+npm ERR! network 
+npm ERR! network If you are behind a proxy, please make sure that the
+npm ERR! network 'proxy' config is set properly.  See: 'npm help config'
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/hojeong_im/.npm/_logs/2023-02-26T14_24_22_723Z-debug-0.log
